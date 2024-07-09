@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind and DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS Styles -->
+     <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Navbar and Banner section -->
+
+    <section class="font-raleway mx-32">
+        <!-- Navbar -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+            <a class="btn btn-ghost text-4xl font-extrabold text-[#030712]">P-Ticket</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-lg font-medium text-[#030712B3] text-opacity-70">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+            </ul>
+            </div>
+            <div class="navbar-end">
+            <a class="btn text-xl font-bold text-[#1DD100] bg-[#1DD1001A] bg-opacity-10 border-[#1DD10066] border-opacity-40">Bus <img src="./images/bus-icon.png" alt=""></a>
+            </div>
+        </div>
+
+        <!-- Banner -->
+        <div
+        class="hero h-[70vh] rounded-[32px]"
+        style="background-image: url(./images/banner.png);">
+        <div class="hero-overlay bg-gradient-to-b bg-opacity-50 rounded-[32px]"></div>
+        <div class="hero-content text-neutral-content text-center">
+          <div class="max-w-[45rem]">
+            <h1 class="mb-5 text-[64px] font-extrabold">End-to-End Travel with <span class="text-[#1DD100]">P Paribahan</span></h1>
+            <p class="mb-5 font-inter text-lg">
+                Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .
+            </p>
+            <button class="btn text-xl text-[#030712] bg-[#1DD100] rounded-xl border-none font-bold p-4 min-h-0 h-full">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
+</html>
